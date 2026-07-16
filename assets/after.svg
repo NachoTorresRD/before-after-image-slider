@@ -1,1 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101722"/><stop offset="1" stop-color="#241b12"/></linearGradient><linearGradient id="card"><stop stop-color="#ffca57"/><stop offset="1" stop-color="#ff8a5b"/></linearGradient></defs><rect width="1200" height="750" fill="url(#bg)"/><circle cx="980" cy="110" r="260" fill="#ffca57" opacity=".1"/><rect x="100" y="74" width="1000" height="602" rx="28" fill="#161c26" stroke="#ffca57" stroke-opacity=".38" stroke-width="3"/><circle cx="142" cy="112" r="8" fill="#ff765f"/><circle cx="170" cy="112" r="8" fill="#ffd45f"/><circle cx="198" cy="112" r="8" fill="#6ee7ac"/><text x="148" y="204" fill="#ffca57" font-family="Arial" font-weight="700" font-size="19" letter-spacing="4">DESPUÉS / UI REFINADA</text><text x="148" y="264" fill="#fff" font-family="Arial" font-weight="800" font-size="44">Jerarquía que guía la mirada.</text><rect x="148" y="310" width="904" height="280" rx="18" fill="#10151d" stroke="#ffffff" stroke-opacity=".1"/><rect x="190" y="350" width="280" height="200" rx="18" fill="url(#card)"/><circle cx="330" cy="425" r="55" fill="#171b22" opacity=".82"/><text x="330" y="438" text-anchor="middle" fill="#ffca57" font-family="Arial" font-weight="800" font-size="34">NT</text><text x="510" y="385" fill="#ffca57" font-family="Arial" font-size="17" font-weight="700">SISTEMA VISUAL</text><rect x="510" y="414" width="410" height="20" rx="6" fill="#f8f8f8"/><rect x="510" y="460" width="330" height="13" rx="6" fill="#7f8794"/><rect x="510" y="492" width="390" height="13" rx="6" fill="#7f8794"/><rect x="510" y="526" width="132" height="42" rx="10" fill="#ffca57"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071018"/><stop offset=".48" stop-color="#101324"/><stop offset="1" stop-color="#180b1d"/></linearGradient>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72f4ff"/><stop offset=".45" stop-color="#ad78ff"/><stop offset="1" stop-color="#ff6dac"/></linearGradient>
+    <radialGradient id="sphere" cx="35%" cy="28%"><stop offset="0" stop-color="#f5ffff"/><stop offset=".15" stop-color="#8cfff0"/><stop offset=".48" stop-color="#5b6cff"/><stop offset=".8" stop-color="#932a9c"/><stop offset="1" stop-color="#180b2e"/></radialGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity=".035"/></linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0v64" fill="none" stroke="#75ecff" stroke-opacity=".075"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000" flood-opacity=".55"/></filter>
+    <clipPath id="frame"><rect x="72" y="58" width="1056" height="634" rx="28"/></clipPath>
+    <style>
+      .orb{animation:float 4.2s ease-in-out infinite}.ring-a{transform-box:fill-box;transform-origin:center;animation:spin 12s linear infinite}.ring-b{transform-box:fill-box;transform-origin:center;animation:spinBack 9s linear infinite}.glass-a{animation:cardA 4.6s ease-in-out infinite}.glass-b{animation:cardB 5.2s ease-in-out infinite}.particle{animation:pulse 2.4s ease-in-out infinite}.particle:nth-of-type(2n){animation-delay:-1.2s}.scan{animation:scan 4s ease-in-out infinite}.aurora{animation:aurora 7s ease-in-out infinite alternate}
+      @keyframes float{50%{transform:translateY(-16px)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes spinBack{to{transform:rotate(-360deg)}}@keyframes cardA{50%{transform:translate(-7px,-11px) rotate(-1deg)}}@keyframes cardB{50%{transform:translate(8px,-8px) rotate(1deg)}}@keyframes pulse{50%{opacity:.25;transform:scale(.55)}}@keyframes scan{0%,100%{transform:translateX(-260px);opacity:0}35%,65%{opacity:.55}80%{transform:translateX(980px);opacity:0}}@keyframes aurora{to{transform:translate(35px,-18px) scale(1.08)}}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <rect x="72" y="58" width="1056" height="634" fill="#080c15"/>
+    <g class="aurora"><ellipse cx="897" cy="147" rx="320" ry="168" fill="#6f3cff" opacity=".18" filter="url(#soft)"/><ellipse cx="1060" cy="535" rx="250" ry="180" fill="#ff3f98" opacity=".12" filter="url(#soft)"/><ellipse cx="430" cy="725" rx="340" ry="140" fill="#18d7ca" opacity=".12" filter="url(#soft)"/></g>
+    <rect x="72" y="58" width="1056" height="634" fill="url(#grid)"/>
+    <path d="M100 638 430 398h420l252 240M190 638l286-240M1090 638 803 398M72 550h1056M72 484h1056M72 432h1056" fill="none" stroke="#79eaff" stroke-opacity=".08"/>
+    <rect class="scan" x="72" y="58" width="180" height="634" fill="url(#aurora)" opacity=".18" transform="skewX(-16)"/>
+  </g>
+  <rect x="72" y="58" width="1056" height="634" rx="28" fill="none" stroke="url(#aurora)" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="111" cy="91" r="6" fill="#ff6dac"/><circle cx="134" cy="91" r="6" fill="#f4d66d"/><circle cx="157" cy="91" r="6" fill="#70f0c0"/>
+  <rect x="184" y="78" width="112" height="28" rx="14" fill="#fff" fill-opacity=".06"/>
+  <circle cx="202" cy="92" r="5" fill="#b8ff66" filter="url(#glow)"/>
+  <text x="216" y="96" fill="#d9faff" font-family="Arial" font-size="10" font-weight="700" letter-spacing="1.6">NT / LIVE</text>
+  <text x="910" y="96" fill="#a8b4c8" font-family="Arial" font-size="10" letter-spacing="2">WORK · MOTION · CONTACT</text>
+
+  <text x="116" y="178" fill="#b8ff66" font-family="Arial" font-size="15" font-weight="700" letter-spacing="4">DESPUÉS / EXPERIENCIA DIGITAL</text>
+  <text x="112" y="257" fill="#f7fbff" font-family="Arial" font-size="55" font-weight="800" letter-spacing="-2">Diseño que se</text>
+  <text x="112" y="316" fill="url(#aurora)" font-family="Arial" font-size="55" font-weight="800" letter-spacing="-2">siente vivo.</text>
+  <text x="116" y="359" fill="#9aa8ba" font-family="Arial" font-size="16">Dirección visual, profundidad y movimiento</text>
+  <text x="116" y="383" fill="#9aa8ba" font-family="Arial" font-size="16">trabajando como una sola experiencia.</text>
+  <rect x="116" y="424" width="170" height="52" rx="26" fill="#b8ff66"/>
+  <text x="151" y="456" fill="#0c1611" font-family="Arial" font-size="14" font-weight="800">EXPLORAR DISEÑO</text>
+  <circle cx="311" cy="450" r="25" fill="#fff" fill-opacity=".07" stroke="#fff" stroke-opacity=".14"/>
+  <path d="m304 450 14 0m-6-6 6 6-6 6" fill="none" stroke="#e8f7ff" stroke-width="2"/>
+  <g transform="translate(116 532)">
+    <rect width="310" height="80" rx="16" fill="url(#glass)" stroke="#fff" stroke-opacity=".12"/>
+    <text x="20" y="28" fill="#b8ff66" font-family="Arial" font-size="10" font-weight="700" letter-spacing="2">SISTEMA CREATIVO</text>
+    <text x="20" y="55" fill="#eaf4ff" font-family="Arial" font-size="15" font-weight="700">MOTION · 3D · INTERACCIÓN</text>
+    <path d="M250 40h35" stroke="#72f4ff" stroke-width="2"/>
+    <circle cx="285" cy="40" r="4" fill="#72f4ff" filter="url(#glow)"/>
+  </g>
+
+  <g class="orb" filter="url(#shadow)">
+    <ellipse cx="807" cy="570" rx="220" ry="38" fill="#000" opacity=".45" filter="url(#soft)"/>
+    <circle cx="806" cy="355" r="141" fill="#331052" opacity=".42" filter="url(#soft)"/>
+    <g class="ring-a">
+      <ellipse cx="806" cy="355" rx="204" ry="104" fill="none" stroke="url(#aurora)" stroke-width="3" stroke-dasharray="18 10" opacity=".75" transform="rotate(-18 806 355)"/>
+      <circle cx="615" cy="408" r="8" fill="#b8ff66" filter="url(#glow)"/>
+    </g>
+    <g class="ring-b">
+      <ellipse cx="806" cy="355" rx="181" ry="78" fill="none" stroke="#72f4ff" stroke-width="2" stroke-dasharray="5 13" opacity=".7" transform="rotate(58 806 355)"/>
+      <circle cx="934" cy="469" r="6" fill="#ff6dac" filter="url(#glow)"/>
+    </g>
+    <circle cx="806" cy="355" r="116" fill="url(#sphere)" stroke="#fff" stroke-opacity=".25" stroke-width="2"/>
+    <ellipse cx="771" cy="319" rx="48" ry="27" fill="#fff" opacity=".24" transform="rotate(-28 771 319)" filter="url(#soft)"/>
+    <path d="M709 369c53 29 128 34 195-14" fill="none" stroke="#8effee" stroke-opacity=".42" stroke-width="2"/>
+    <path d="M730 298c38 27 104 25 150-8" fill="none" stroke="#fff" stroke-opacity=".24"/>
+  </g>
+
+  <g class="glass-a" filter="url(#shadow)">
+    <rect x="927" y="176" width="152" height="94" rx="18" fill="url(#glass)" stroke="#fff" stroke-opacity=".2"/>
+    <circle cx="955" cy="206" r="9" fill="#72f4ff" filter="url(#glow)"/>
+    <text x="975" y="210" fill="#dffaff" font-family="Arial" font-size="10" font-weight="700">LIGHT SYSTEM</text>
+    <rect x="949" y="232" width="103" height="6" rx="3" fill="#fff" fill-opacity=".18"/>
+    <rect x="949" y="246" width="72" height="6" rx="3" fill="#b8ff66" fill-opacity=".7"/>
+  </g>
+  <g class="glass-b" filter="url(#shadow)">
+    <rect x="552" y="505" width="170" height="106" rx="18" fill="url(#glass)" stroke="#fff" stroke-opacity=".2"/>
+    <text x="574" y="537" fill="#ff89bd" font-family="Arial" font-size="10" font-weight="700" letter-spacing="1.4">DEPTH ENGINE</text>
+    <circle cx="585" cy="572" r="14" fill="none" stroke="#72f4ff" stroke-width="3"/>
+    <circle cx="613" cy="572" r="14" fill="none" stroke="#ad78ff" stroke-width="3"/>
+    <circle cx="641" cy="572" r="14" fill="none" stroke="#ff6dac" stroke-width="3"/>
+    <path d="M670 565h29M670 578h20" stroke="#fff" stroke-opacity=".38" stroke-width="4"/>
+  </g>
+  <g fill="#dffcff">
+    <circle class="particle" cx="535" cy="200" r="3"/><circle class="particle" cx="640" cy="128" r="4"/><circle class="particle" cx="1060" cy="338" r="3"/><circle class="particle" cx="1001" cy="588" r="4"/><circle class="particle" cx="485" cy="446" r="3"/><circle class="particle" cx="1080" cy="134" r="2"/>
+  </g>
+</svg>

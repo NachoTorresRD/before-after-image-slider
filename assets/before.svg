@@ -1,1 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750"><rect width="1200" height="750" fill="#d6d7d9"/><rect x="100" y="74" width="1000" height="602" rx="28" fill="#f4f4f4" stroke="#a5a7aa" stroke-width="4"/><circle cx="142" cy="112" r="8" fill="#aaa"/><circle cx="170" cy="112" r="8" fill="#aaa"/><circle cx="198" cy="112" r="8" fill="#aaa"/><rect x="148" y="176" width="280" height="26" rx="6" fill="#92959a"/><rect x="148" y="220" width="460" height="14" rx="6" fill="#c0c2c5"/><rect x="148" y="250" width="390" height="14" rx="6" fill="#c0c2c5"/><rect x="148" y="310" width="904" height="280" rx="18" fill="#dedfe1" stroke="#bbbdbf" stroke-width="3"/><rect x="190" y="358" width="270" height="186" rx="10" fill="#c2c4c7"/><rect x="490" y="358" width="520" height="22" rx="6" fill="#adb0b4"/><rect x="490" y="404" width="420" height="14" rx="6" fill="#c1c3c6"/><rect x="490" y="438" width="470" height="14" rx="6" fill="#c1c3c6"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs>
+    <pattern id="paper" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0v24" fill="none" stroke="#d7d4ce" stroke-width="1"/>
+    </pattern>
+    <filter id="rough"><feTurbulence baseFrequency=".018" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.4"/></filter>
+  </defs>
+  <rect width="1200" height="750" fill="#dedbd5"/>
+  <rect width="1200" height="750" fill="url(#paper)" opacity=".65"/>
+  <rect x="72" y="58" width="1056" height="634" rx="8" fill="#f6f4f0" stroke="#aaa7a1" stroke-width="3"/>
+  <rect x="72" y="58" width="1056" height="64" fill="#cbc8c2"/>
+  <circle cx="110" cy="90" r="8" fill="#9c9994"/><circle cx="138" cy="90" r="8" fill="#9c9994"/><circle cx="166" cy="90" r="8" fill="#9c9994"/>
+  <rect x="892" y="78" width="72" height="15" fill="#aaa7a1"/><rect x="982" y="78" width="92" height="15" fill="#aaa7a1"/>
+  <text x="116" y="170" fill="#787570" font-family="monospace" font-size="17" font-weight="700">BORRADOR_01 / SIN SISTEMA</text>
+  <text x="116" y="245" fill="#353432" font-family="Times New Roman" font-size="49">Título principal aquí</text>
+  <rect x="116" y="270" width="420" height="15" fill="#aaa7a1"/>
+  <rect x="116" y="300" width="342" height="15" fill="#c2bfb9"/>
+  <rect x="116" y="350" width="142" height="48" fill="#245dcc"/>
+  <text x="154" y="381" fill="#fff" font-family="Arial" font-size="14">BOTÓN</text>
+  <g filter="url(#rough)">
+    <rect x="635" y="170" width="390" height="320" fill="#d4d1cb" stroke="#a6a39d" stroke-width="3"/>
+    <circle cx="830" cy="314" r="91" fill="#bbb8b2"/>
+    <path d="M765 307h130M785 337h90" stroke="#8c8984" stroke-width="12"/>
+  </g>
+  <rect x="110" y="480" width="960" height="142" fill="#ebe9e5" stroke="#aaa7a1" stroke-width="2"/>
+  <rect x="136" y="510" width="272" height="26" fill="#b5b2ac"/>
+  <rect x="136" y="552" width="220" height="12" fill="#cbc8c2"/>
+  <rect x="136" y="577" width="250" height="12" fill="#cbc8c2"/>
+  <rect x="462" y="510" width="272" height="26" fill="#b5b2ac"/>
+  <rect x="462" y="552" width="242" height="12" fill="#cbc8c2"/>
+  <rect x="790" y="510" width="250" height="80" fill="#d2cfca"/>
+  <g transform="rotate(-7 985 194)">
+    <rect x="928" y="135" width="156" height="111" fill="#ffd86b" stroke="#c2a139"/>
+    <text x="946" y="174" fill="#6b561a" font-family="Arial" font-size="16" font-weight="700">TODO:</text>
+    <text x="946" y="202" fill="#6b561a" font-family="Arial" font-size="14">dar jerarquía</text>
+    <path d="M947 217h101" stroke="#a98c32" stroke-width="3"/>
+  </g>
+  <path d="M520 221c54-34 91-27 123 4" fill="none" stroke="#d54f4f" stroke-width="4" stroke-dasharray="8 8"/>
+  <path d="m625 208 19 17-23 9" fill="none" stroke="#d54f4f" stroke-width="4"/>
+  <text x="500" y="188" fill="#b43f3f" font-family="monospace" font-size="15">¿imagen?</text>
+</svg>

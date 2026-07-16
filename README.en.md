@@ -2,14 +2,17 @@
 
 ![Preview](assets/preview.svg)
 
-A comparison of two original SVGs operated through drag, mouse, touch, keyboard, and quick positions.
+A high-contrast comparison that transforms a flat wireframe into a futuristic experience with 3D, glass, light, and motion.
 
 ## Features
 
 - `role="slider"` with synchronized ARIA values.
 - Arrow keys, Shift + arrows, Home, and End.
 - Buttons for 0%, 50%, and 100%.
-- Local SVG images with no dependencies.
+- On-demand cinematic transformation playback.
+- Animated final SVG scene with a 3D sphere, orbits, particles, and floating cards.
+- Coherent visual direction: the final design reveals on the left while the draft remains on the right.
+- Complete comparator visible in one desktop shot.
 
 ## Live demo
 
@@ -21,11 +24,11 @@ Clone the repository, enter `before-after-image-slider`, and open `index.html`.
 
 ## Project structure
 
-Comparison markup in `index.html`, clipping in `style.css`, multimodal input in `script.js`, and illustrations in `assets/`.
+Comparison markup in `index.html`, clipping and visual polish in `style.css`, capture composition in `capture.css`, multimodal playback in `script.js`, and SVG scenes in `assets/`.
 
 ## Customization
 
-Replace `before.svg` and `after.svg` with identically framed images and preserve explicit dimensions.
+Replace `before.svg` and `after.svg` with identically framed scenes, preserve explicit dimensions, and adapt the alternative text.
 
 ## Accessibility
 
@@ -33,7 +36,7 @@ The control announces percentage and direction, works by keyboard, and provides 
 
 ## Performance
 
-Clipping uses `clip-path`, dragging groups writes by frame, and the images are lightweight local SVGs.
+Clipping and playback batch writes by frame; scenes are local SVG files and all motion honors `prefers-reduced-motion`.
 
 ## License and credits
 
