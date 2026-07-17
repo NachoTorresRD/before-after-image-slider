@@ -16,7 +16,7 @@ Comparador de alto contraste que transforma un wireframe plano en una experienci
 
 ## Demo en vivo
 
-[before-after-image-slider.netlify.app](https://before-after-image-slider.netlify.app)
+[fxpreviwe.ntdesweb.dev](https://fxpreviwe.ntdesweb.dev/)
 
 ## Instalación
 

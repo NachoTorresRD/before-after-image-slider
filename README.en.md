@@ -16,7 +16,7 @@ A high-contrast comparison that transforms a flat wireframe into a futuristic ex
 
 ## Live demo
 
-[before-after-image-slider.netlify.app](https://before-after-image-slider.netlify.app)
+[fxpreviwe.ntdesweb.dev](https://fxpreviwe.ntdesweb.dev/)
 
 ## Installation
 
