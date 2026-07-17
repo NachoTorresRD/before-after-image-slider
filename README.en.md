@@ -18,6 +18,12 @@ A high-contrast comparison that transforms a flat wireframe into a futuristic ex
 
 [fxpreview.ntdesweb.dev](https://fxpreview.ntdesweb.dev/)
 
+## More effect demos
+
+- [Hacker Text](https://hacker.ntdesweb.dev/)
+- [Magnetic Button](https://magnetic.ntdesweb.dev/)
+- [Glassmorphism Pricing Card](https://glass.ntdesweb.dev/)
+
 ## Installation
 
 Clone the repository, enter `before-after-image-slider`, and open `index.html`.

@@ -18,6 +18,12 @@ Comparador de alto contraste que transforma un wireframe plano en una experienci
 
 [fxpreview.ntdesweb.dev](https://fxpreview.ntdesweb.dev/)
 
+## Más demos de efectos
+
+- [Hacker Text](https://hacker.ntdesweb.dev/)
+- [Magnetic Button](https://magnetic.ntdesweb.dev/)
+- [Glassmorphism Pricing Card](https://glass.ntdesweb.dev/)
+
 ## Instalación
 
 Clona el repositorio, entra en `before-after-image-slider` y abre `index.html`.
