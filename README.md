@@ -16,7 +16,7 @@ Comparador de alto contraste que transforma un wireframe plano en una experienci
 
 ## Demo en vivo
 
-[fxpreviwe.ntdesweb.dev](https://fxpreviwe.ntdesweb.dev/)
+[fxpreview.ntdesweb.dev](https://fxpreview.ntdesweb.dev/)
 
 ## Instalación
 

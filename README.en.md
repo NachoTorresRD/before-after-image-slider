@@ -16,7 +16,7 @@ A high-contrast comparison that transforms a flat wireframe into a futuristic ex
 
 ## Live demo
 
-[fxpreviwe.ntdesweb.dev](https://fxpreviwe.ntdesweb.dev/)
+[fxpreview.ntdesweb.dev](https://fxpreview.ntdesweb.dev/)
 
 ## Installation
 
